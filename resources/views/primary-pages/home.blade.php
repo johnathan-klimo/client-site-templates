@@ -18,6 +18,26 @@
         <p>Access to this application during initial testing is currently by invitation only. If you've been invited, please <span><a href="/login" class="font-medium text-orange-400 hover:text-orange-600">click here</a></span> to login.</p>
         <p class="mt-6">If you haven't been invited, please move along to another website for now. :)</p>
       </div>
+      <div class="mt-6 flex gap-4">
+        <div>
+          <x-bootstrap-icons.instagram :clickable="true" url="https://instagram.com" />
+        </div>
+        <div>
+          <x-bootstrap-icons.facebook :clickable="true" url="https://facebook.com" />  
+        </div>
+        <div>
+          <x-bootstrap-icons.twitter-x :clickable="true" url="https://x.com" />
+        </div>
+        <div>
+          <x-bootstrap-icons.linkedin :clickable="true" url="https://linkedin.com" />
+        </div>
+        <div>
+          <x-bootstrap-icons.youtube :clickable="true" url="https://youtube.com" />
+        </div>
+        <div>
+          <x-bootstrap-icons.pinterest :clickable="true" url="https://pinterest.com" />
+        </div>
+      </div>
     @endguest
 
       
