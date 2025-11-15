@@ -1,0 +1,33 @@
+.blogPostHeroContainer {
+  height: 400px;
+  display: grid;
+}
+
+@media(max-width: 640px) {
+  .blogPostHeroContainer {
+    height: 300px;
+  }
+}
+
+.blogPostHeroImage {
+  grid-area: 1 / 1;
+}
+
+.blogPostHeroImageOverlay {
+  display: grid;
+  grid-area: 1 / 1;
+  position: relative;
+  background: linear-gradient(rgba(30, 74, 119, 0.8), rgba(30, 74, 119, 0.4));
+}
+
+.blogPostHeroTextOverlayContainer {
+  display: grid;
+  grid-area: 1 / 1;
+  position: relative;
+}
+
+.blogPostHeroCategoryAndTitle {
+  justify-self: center;
+  align-self: center;
+  max-width: 1280px;
+}
