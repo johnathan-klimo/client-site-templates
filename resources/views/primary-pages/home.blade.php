@@ -1,4 +1,4 @@
-<x-app-layouts.primary-app-layout @auth pageTitle="Home | My Grocery Tracker" @endauth @guest pageTitle="Home | Project Agamemnon" @endguest>
+<x-app-layouts.primary-app-layout @auth pageTitle="Home | My Grocery Tracker" @endauth @guest pageTitle="Home | Project Agamemnon" @endguest >
   <div class="mt-6 max-w-6xl mx-auto">
 
     @auth
@@ -37,6 +37,10 @@
         <div>
           <x-bootstrap-icons.pinterest :clickable="true" url="https://pinterest.com" />
         </div>
+      </div>
+
+      <div class="mt-6">
+        <x-bootstrap-icons.hamburger />
       </div>
     @endguest
 
