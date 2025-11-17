@@ -1,3 +1,5 @@
+{{-- Source: https://icons.getbootstrap.com/ --}}
+
 @props(['clickable' => false, 'url' => '#'])
 
 @if ($clickable)

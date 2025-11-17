@@ -19,28 +19,19 @@
         <p class="mt-6">If you haven't been invited, please move along to another website for now. :)</p>
       </div>
       <div class="mt-6 flex gap-4">
-        <div>
-          <x-bootstrap-icons.instagram :clickable="true" url="https://instagram.com" />
-        </div>
-        <div>
-          <x-bootstrap-icons.facebook :clickable="true" url="https://facebook.com" />  
-        </div>
-        <div>
-          <x-bootstrap-icons.twitter-x :clickable="true" url="https://x.com" />
-        </div>
-        <div>
-          <x-bootstrap-icons.linkedin :clickable="true" url="https://linkedin.com" />
-        </div>
-        <div>
-          <x-bootstrap-icons.youtube :clickable="true" url="https://youtube.com" />
-        </div>
-        <div>
-          <x-bootstrap-icons.pinterest :clickable="true" url="https://pinterest.com" />
-        </div>
+          <x-app-icons.instagram :clickable="true" url="https://instagram.com" />
+          <x-app-icons.facebook :clickable="true" url="https://facebook.com" />  
+          <x-app-icons.twitter-x :clickable="true" url="https://x.com" />
+          <x-app-icons.linkedin :clickable="true" url="https://linkedin.com" />
+          <x-app-icons.youtube :clickable="true" url="https://youtube.com" />
+          <x-app-icons.pinterest :clickable="true" url="https://pinterest.com" />
       </div>
 
       <div class="mt-6">
-        <x-bootstrap-icons.hamburger />
+        <x-app-icons.hamburger-open-1a />
+        <x-app-icons.hamburger-open-1b />
+        <x-app-icons.hamburger-open-2 />
+        <x-app-icons.hamburger-close />
       </div>
     @endguest
 
