@@ -27,12 +27,14 @@
           <x-app-icons.pinterest :clickable="true" url="https://pinterest.com" />
       </div>
 
+      {{-- 
       <div class="mt-6">
         <x-app-icons.hamburger-open-1a />
         <x-app-icons.hamburger-open-1b />
         <x-app-icons.hamburger-open-2 />
         <x-app-icons.hamburger-close />
       </div>
+      --}}
     @endguest
 
       
