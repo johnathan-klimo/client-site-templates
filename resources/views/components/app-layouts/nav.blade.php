@@ -28,18 +28,17 @@
 	  </button>
 
     {{-- Mobile Menu --}}
-    <div x-cloak x-show="mobileMenuIsOpen"
+    <ul x-cloak x-show="mobileMenuIsOpen"
       x-transition:enter="transition motion-reduce:transition-none ease-out duration-300" x-transition:enter-start="-translate-y-full" x-transition:enter-end="translate-y-0"
       x-transition:leave="transition motion-reduce:transition-none ease-out duration-300" x-transition:leave-start="translate-y-0" x-transition:leave-end="-translate-y-full"
       id="mobileMenu"
-      class="lg:hidden bg-sky-800 fixed max-h-svh overflow-y-auto inset-x-0 top-0 z-10 flex flex-col divide-y divide-outline rounded-b-radius border-b border-outline px-6 pb-6 pt-20"
+      class="lg:hidden bg-sky-800 fixed max-h-dvh overflow-y-auto inset-x-0 top-0 z-10 flex flex-col divide-y divide-outline divide-gray-400 rounded-b-sm border-b border-outline border-gray-50 px-6 pb-6 pt-20"
     >
-      <ul>
-		    <li class="py-4"><a href="#" class="w-full text-lg font-medium text-gray-50">Services</a></li>
-		    <li class="py-4"><a href="#" class="w-full text-lg font-medium text-gray-50">About Us</a></li>
-		    <li class="py-4"><a href="#" class="w-full text-lg font-medium text-gray-50">Contact Us</a></li>
-	    </ul>
-    </div>
+		  <li class="py-4"><a href="#" class="w-full text-lg font-medium text-gray-50">Services</a></li>
+		  <li class="py-4"><a href="#" class="w-full text-lg font-medium text-gray-50">About Us</a></li>
+		  <li class="py-4"><a href="#" class="w-full text-lg font-medium text-gray-50">Contact Us</a></li>
+	  </ul>
+    
 
   </div>
 </nav>
@@ -49,3 +48,4 @@
 
 x-bind:class="mobileMenuIsOpen ? 'fixed top-6 right-6 z-20' : null"
 --}}
+
