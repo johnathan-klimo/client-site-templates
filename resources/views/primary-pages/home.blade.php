@@ -26,6 +26,9 @@
           <x-app-icons.youtube :clickable="true" url="https://youtube.com" />
           <x-app-icons.pinterest :clickable="true" url="https://pinterest.com" />
       </div>
+      <div class="mt-6">
+        <x-app-testimonials.testimonial-block-1 />
+      </div>
 
       {{-- 
       <div class="mt-6">
