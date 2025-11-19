@@ -1,4 +1,4 @@
-<div class="grid grid-cols-3 gap-8">
+<div class="grid grid-cols-3 gap-6">
   <x-app-testimonials.testimonial-card-1
     fileName="professional-headshot-1"
     text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit a deleniti minus dolorum. Temporibus iste magnam, cumque fugiat pariatur assumenda!"
@@ -15,18 +15,18 @@
     clientName="Theresa M."
   />
   <x-app-testimonials.testimonial-card-1
-    fileName="professional-headshot-4"
+    fileName="professional-headshot-5"
     text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate harum illum cum tempora doloremque, sint maxime voluptates ipsa accusantium omnis!"
-    clientName="Maria C."
+    clientName="Matthew C."
   />
   <x-app-testimonials.testimonial-card-1
     fileName="professional-headshot-4"
     text="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto quia sequi totam ipsa doloremque quas, tenetur ipsum natus ut numquam?"
-    clientName="Maria C."
+    clientName="Jennifer G."
   />
   <x-app-testimonials.testimonial-card-1
-    fileName="professional-headshot-4"
+    fileName="professional-headshot-6"
     text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores assumenda in excepturi iste neque laudantium, dolor ducimus facilis libero ipsam."
-    clientName="Maria C."
+    clientName="Megan C."
   />
 </div>
