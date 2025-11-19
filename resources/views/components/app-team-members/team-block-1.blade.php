@@ -6,43 +6,43 @@
     <div class="grid grid-cols-4 gap-6">
       <x-app-team-members.team-card-1
         fileName="professional-headshot-6-large"
-        teamMemberName="Jane Doe"
-        teamMemberTitle="Co-Founder"
+        teamMemberName="Gabriela C."
+        teamMemberTitle="Co-Founder & CEO"
       />
       <x-app-team-members.team-card-1
         fileName="professional-headshot-5-large"
-        teamMemberName="Jane Doe"
-        teamMemberTitle="Co-Founder"
-      />
-      <x-app-team-members.team-card-1
-        fileName="professional-headshot-3-large"
-        teamMemberName="Jane Doe"
-        teamMemberTitle="Co-Founder"
+        teamMemberName="Jason D."
+        teamMemberTitle="Co-Founder & CFO"
       />
       <x-app-team-members.team-card-1
         fileName="professional-headshot-4-large"
-        teamMemberName="Jane Doe"
-        teamMemberTitle="Co-Founder"
+        teamMemberName="Theresa M."
+        teamMemberTitle="Chief Technology Officer"
+      />
+      <x-app-team-members.team-card-1
+        fileName="professional-headshot-3-large"
+        teamMemberName="Jessica Z."
+        teamMemberTitle="Manager, Web Development"
       />
       <x-app-team-members.team-card-1
         fileName="professional-headshot-2-large"
-        teamMemberName="Jane Doe"
-        teamMemberTitle="Co-Founder"
+        teamMemberName="Mark M."
+        teamMemberTitle="Manager, Marketing"
       />
       <x-app-team-members.team-card-1
         fileName="professional-headshot-1-large"
-        teamMemberName="Jane Doe"
-        teamMemberTitle="Co-Founder"
+        teamMemberName="Amanada S."
+        teamMemberTitle="Manager, Business Development"
       />
       <x-app-team-members.team-card-1
         fileName="professional-headshot-7-large"
-        teamMemberName="Jane Doe"
-        teamMemberTitle="Co-Founder"
+        teamMemberName="Asha B."
+        teamMemberTitle="Full-Stack Developer"
       />
       <x-app-team-members.team-card-1
         fileName="professional-headshot-8-large"
-        teamMemberName="Jane Doe"
-        teamMemberTitle="Co-Founder"
+        teamMemberName="Sarah R."
+        teamMemberTitle="Full-Stack Developer"
       />
     </div>
   </div>
