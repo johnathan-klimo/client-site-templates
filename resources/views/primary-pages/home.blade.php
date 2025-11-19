@@ -31,6 +31,9 @@
       <div class="mt-6">
         <x-app-testimonials.testimonial-block-1 />
       </div>
+      <div class="mt-6">
+        <x-app-team-members.team-block-1 />
+      </div>
 
       {{-- 
       <div class="mt-6">

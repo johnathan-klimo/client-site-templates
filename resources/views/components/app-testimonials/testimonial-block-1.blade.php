@@ -1,4 +1,4 @@
-<div class="mt-6">
+<div class="mt-16">
   <div>
     <h2 class="text-2xl text-center font-bold text-sky-800">Client Testimonials</h2>
   </div>
