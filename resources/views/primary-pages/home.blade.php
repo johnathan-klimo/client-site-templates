@@ -25,6 +25,8 @@
           <x-app-icons.linkedin :clickable="true" url="https://linkedin.com" />
           <x-app-icons.youtube :clickable="true" url="https://youtube.com" />
           <x-app-icons.pinterest :clickable="true" url="https://pinterest.com" />
+          <x-app-icons.email-1 :clickable="true" url="#" />
+          <x-app-icons.email-2 :clickable="true" url="#" />
       </div>
       <div class="mt-6">
         <x-app-testimonials.testimonial-block-1 />
