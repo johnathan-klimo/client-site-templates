@@ -8,14 +8,6 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, maiores tenetur cumque quidem fugit repellat perferendis explicabo laboriosam, vitae, ex illo voluptas assumenda distinctio natus tempora magni iusto a perspiciatis.
         </p>
         {{-- <p class="text-gray-200 py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, dolorem.</p> --}}
-        <div class="mt-6 flex gap-4">
-          <x-app-icons.instagram :clickable="true" url="https://instagram.com" />
-          <x-app-icons.facebook :clickable="true" url="https://facebook.com" />  
-          <x-app-icons.twitter-x :clickable="true" url="https://x.com" />
-          <x-app-icons.linkedin :clickable="true" url="https://linkedin.com" />
-          <x-app-icons.youtube :clickable="true" url="https://youtube.com" />
-          <x-app-icons.pinterest :clickable="true" url="https://pinterest.com" />
-      </div>
       </div>
       <div class="lg:basis-1/4">
         <h4 class="font-bold text-gray-50">Menu 1</h4>
@@ -25,18 +17,21 @@
             <li><a href="#" wire:navigate class="hover:text-orange-400">Internal Site Link 2</a></li>
             <li><a href="#" wire:navigate class="hover:text-orange-400">Internal Site Link 3</a></li>
             <li><a href="#" wire:navigate class="hover:text-orange-400">Internal Site Link 4</a></li>
-            <li><a href="#" wire:navigate class="hover:text-orange-400">Internal Site Link 5</a></li>
           </ul>
         </nav>
       </div>
-      <div class="lg:basis-1/4">
-        <h4 class="font-bold text-gray-50">Menu 2</h4>
-        <nav class="pt-4">
-          <ul class="text-gray-200">
-            <li><a href="#" wire:navigate class="hover:text-orange-400">Internal Site Link 6</a></li>
-            <li><a href="#" wire:navigate class="hover:text-orange-400">Internal Site Link 7</a></li>
-          </ul>
-        </nav>
+      <div class="lg:basis-1/4 text-gray-200">
+        <div class="flex gap-4">
+          <x-app-icons.instagram :clickable="true" url="https://instagram.com" />
+          <x-app-icons.facebook :clickable="true" url="https://facebook.com" />  
+          <x-app-icons.twitter-x :clickable="true" url="https://x.com" />
+          <x-app-icons.linkedin :clickable="true" url="https://linkedin.com" />
+          <x-app-icons.youtube :clickable="true" url="https://youtube.com" />
+          <x-app-icons.pinterest :clickable="true" url="https://pinterest.com" />
+        </div>
+        <p class="pt-10">12345 67 Street</p>
+        <p>Somewhereville, AB</p>
+        <p>(123) 456-7890</p>
       </div>
     </div>
   </div>
