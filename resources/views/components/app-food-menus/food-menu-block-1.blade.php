@@ -1,8 +1,11 @@
-<div class="mt-16">
-  <div>
+<div class="max-w-6xl mx-auto">
+  <div class="pt-16">
     <h2 class="text-2xl text-center font-bold text-sky-800">Our Menu</h2>
   </div>
-  <div class="mt-6">
+  <div class="pt-8">
+      <hr class="w-1/2 h-px mx-auto border-0 bg-stone-400">  
+    </div>
+  <div class="mt-8">
     <div>
       <h3 class="text-xl font-bold text-sky-800">Appetizers</h3>
     </div>
@@ -50,9 +53,13 @@
         />
       </div>
     </div>
+    <div class="pt-8">
+      <hr class="w-1/2 h-px mx-auto border-0 bg-stone-400">  
+    </div>
+
   </div>
 
-  <div class="mt-6">
+  <div class="mt-8">
     <div>
       <h3 class="text-xl font-bold text-sky-800">Mains</h3>
     </div>
@@ -105,9 +112,12 @@
         />
       </div>
     </div>
+    <div class="pt-8">
+      <hr class="w-1/2 h-px mx-auto border-0 bg-stone-400">  
+    </div>
   </div>
 
-  <div class="mt-6">
+  <div class="mt-8">
     <div>
       <h3 class="text-xl font-bold text-sky-800">Desserts</h3>
     </div>
@@ -155,9 +165,12 @@
         />
       </div>
     </div>
+    <div class="pt-8">
+      <hr class="w-1/2 h-px mx-auto border-0 bg-stone-400">  
+    </div>
   </div>
 
-  <div class="mt-6">
+  <div class="mt-8 pb-8">
     <div>
       <h3 class="text-xl font-bold text-sky-800">Beverages</h3>
     </div>

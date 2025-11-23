@@ -6,9 +6,9 @@
     />
   </div>
 
-  <div class="mt-6">
+  <div>
     
-    <div class="mt-6 max-w-6xl mx-auto">
+    <div class="mx-auto bg-stone-100">
       <x-app-food-menus.food-menu-block-1 />
     </div>
     
