@@ -1,9 +1,9 @@
 @props(['menuItemName' => 'Item Name', 'menuItemPrice' => '$0'])
 
-<div class="text-gray-900">
+<div class="mt-4 text-gray-900">
   <div class="flex justify-between">
     <div>
-      <h3 class="font-bold">{{ $menuItemName }}</h3>
+      <p>{{ $menuItemName }}</p>
     </div>
     <div>
       <h4 class="font-semibold text-orange-400">{{ $menuItemPrice }}</h4>
