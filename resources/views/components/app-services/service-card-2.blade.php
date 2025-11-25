@@ -1,9 +1,22 @@
 @props(['fileName' => '', 'serviceName' => '', 'serviceDescription' => '', 'serviceUrl' => '#'])
 
+<div>
+  <div>
+    <a href="#">
+      <img class="object-cover rounded-lg shadow-lg hover:shadow-xl" src="{{ asset('images/' . $fileName . '.jpg') }}" alt="">  
+    </a>
+  </div>
+  <div class="mt-6 text-center">
+    <a href="#" class="text-lg font-bold text-gray-900 hover:text-orange-400">{{ $serviceName }}</a>
+  </div>
+</div>
+
+
+{{--
 <div class="border border-gray-100 rounded-lg shadow-xl text-gray-900">
   <div class="relative flex items-center justify-center">
     <img class="absolute inset-0 object-cover" src="{{ asset('images/' . $fileName . '.jpg') }}" alt="">
-    <div class="absolute inset-0 w-full h-full bg-black bg-opacity-70"></div>
+    <div class="absolute inset-0 w-auto h-full bg-black bg-opacity-70"></div>
     <div class="relative z-10 flex flex-col items-center text-gray-50">
       <div class="mt-8">
         <h3 class="text-lg font-bold">{{ $serviceName }}</h3>
@@ -11,14 +24,18 @@
       <div>
         <p class="p-4">{{ $serviceDescription }}</p>
       </div>
+      
       <div class="mt-6 pb-6">
         <a href="#" class="bg-sky-800 hover:bg-orange-400 text-gray-50 hover:text-gray-900 py-3 px-6 rounded-full shadow-md">
           Learn More
         </a>
       </div>
+      
     </div>
   </div>
 </div>
+
+--}}
 
 {{--
   <div class="flex flex-col items-center">
