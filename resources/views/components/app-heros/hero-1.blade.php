@@ -10,7 +10,7 @@
   <div class="relative z-10 text-center text-gray-50">
     <h1 class="text-4xl md:text-6xl">Welcome to Your Website</h1>
     <p class="mt-4 text-lg md:text-xl">Crafting stunning designs that convert visitors into clients.</p>
-    <a href="#contact" class="mt-8 inline-block bg-sky-800 hover:bg-orange-400 text-gray-50 hover:text-gray-900 py-3 px-6 rounded-full shadow-md">
+    <a href="#" class="mt-8 inline-block bg-sky-800 hover:bg-orange-400 text-gray-50 hover:text-gray-900 py-3 px-6 rounded-full shadow-md">
       Get Started
     </a>
   </div>

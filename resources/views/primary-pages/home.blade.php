@@ -8,7 +8,9 @@
 
   <div>
     
-
+    <div class="mt-6 max-w-6xl mx-auto">
+      <x-app-services.service-block-1 />
+    </div>
 
     {{--
     <div class="mx-auto bg-stone-100">
@@ -23,11 +25,6 @@
     <div class="mt-6 max-w-6xl mx-auto">
       <x-app-team-members.team-block-1 />
     </div>
-
-    <div class="mt-6 max-w-6xl mx-auto">
-      <x-app-services.service-block-1 />
-    </div>
-
       
   </div>
 
