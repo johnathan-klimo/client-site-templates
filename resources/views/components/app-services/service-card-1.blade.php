@@ -21,7 +21,7 @@
     </div>
     <div class="mt-6 pb-4">
       <a href="#" class="bg-sky-800 hover:bg-orange-400 text-gray-50 hover:text-gray-900 py-3 px-6 rounded-full shadow-md">
-      Learn More
+        Learn More
       </a>
     </div>
   </div>
