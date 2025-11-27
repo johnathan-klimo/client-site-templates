@@ -11,9 +11,13 @@
     </div>
     
     {{-- Desktop Menu --}}
-    <ul class="max-lg:hidden flex items-center gap-4">
-      <li><a href="#" wire:navigate class="font-medium text-gray-50 hover:text-orange-400">Services</a></li>
-      <li><a href="#" wire:navigate class="font-medium text-gray-50 hover:text-orange-400">About Us</a></li>
+    <ul class="max-lg:hidden flex items-center gap-6">
+      <li><a href="/services" wire:navigate class="font-medium text-gray-50 hover:text-orange-400">Services</a></li>
+      <li><a href="/food-menus" wire:navigate class="font-medium text-gray-50 hover:text-orange-400">Food Menus</a></li>
+      <li><a href="/testimonials" wire:navigate class="font-medium text-gray-50 hover:text-orange-400">Testimonials</a></li>
+      <li><a href="/about-us" wire:navigate class="font-medium text-gray-50 hover:text-orange-400">About Us</a></li>
+      <li><a href="/page-heros" wire:navigate class="font-medium text-gray-50 hover:text-orange-400">Page Heros</a></li>
+      <li><a href="#" wire:navigate class="font-medium text-gray-50 hover:text-orange-400">Footers</a></li>
       <li><a href="#" wire:navigate class="font-medium text-gray-50 hover:text-orange-400">Contact Us</a></li>
     </ul>
 
@@ -34,8 +38,12 @@
       id="mobileMenu"
       class="lg:hidden bg-sky-800 fixed max-h-dvh overflow-y-auto inset-x-0 top-0 z-10 flex flex-col divide-y divide-outline divide-gray-400 rounded-b-sm border-b border-outline border-gray-50 px-6 pb-6 pt-20"
     >
-		  <li class="py-4"><a href="#" class="w-full text-lg font-medium text-gray-50">Services</a></li>
-		  <li class="py-4"><a href="#" class="w-full text-lg font-medium text-gray-50">About Us</a></li>
+		  <li class="py-4"><a href="/services" class="w-full text-lg font-medium text-gray-50">Services</a></li>
+      <li class="py-4"><a href="/food-menus" class="w-full text-lg font-medium text-gray-50">Food Menus</a></li>
+      <li class="py-4"><a href="/testimonials" class="w-full text-lg font-medium text-gray-50">Testimonials</a></li>
+		  <li class="py-4"><a href="/about-us" class="w-full text-lg font-medium text-gray-50">About Us</a></li>
+      <li class="py-4"><a href="/page-heros" class="w-full text-lg font-medium text-gray-50">Page Heros</a></li>
+      <li class="py-4"><a href="#" class="w-full text-lg font-medium text-gray-50">Footers</a></li>
 		  <li class="py-4"><a href="#" class="w-full text-lg font-medium text-gray-50">Contact Us</a></li>
 	  </ul>
     
