@@ -9,7 +9,7 @@
         :serviceIconSize="14"
         fileName="lawn-mower-medium-2"
         serviceName="Lawn Care"
-        serviceDescription="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem natus totam pariatur adipisci voluptates expedita."
+        serviceDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptate illo perspiciatis voluptas repellat. Provident quidem debitis eligendi voluptatibus illo!"
         serviceUrl="#"
       />
     </div>
@@ -19,7 +19,7 @@
         :serviceIconSize="14"
         fileName="weed-trimmer-medium-2"
         serviceName="Property Maintenance"
-        serviceDescription="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque laboriosam commodi saepe voluptatem non neque?"
+        serviceDescription="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio voluptatum ad pariatur tempora aliquam harum quibusdam natus beatae. Illum, consequatur?"
         serviceUrl="#"
       />
     </div>
@@ -29,7 +29,7 @@
         :serviceIconSize="14"
         fileName="snow-blower-medium-2"
         serviceName="Snow Removal"
-        serviceDescription="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae repellat, atque fuga fugiat sed eos."
+        serviceDescription="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta facere voluptatibus necessitatibus recusandae molestias est ipsum beatae neque autem saepe?"
         serviceUrl="#"
       />
     </div>
