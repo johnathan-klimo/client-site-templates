@@ -24,6 +24,10 @@
       <x-app-services.service-block-4 />
     </div>
 
+    <div class="mt-6 max-w-7xl mx-auto">
+      <x-app-services.service-block-5 />
+    </div>
+
     {{--
     <div class="mx-auto bg-stone-100">
       <x-app-food-menus.food-menu-block-1 />
