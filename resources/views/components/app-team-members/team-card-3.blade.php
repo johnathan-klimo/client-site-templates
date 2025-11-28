@@ -11,7 +11,7 @@
     <div class="px-4 text-sm">
       <h4>{{ $teamMemberTitle }}</h4>
     </div>
-    <div class="pt-4 px-4">
+    <div class="pt-4 px-4 text-sm">
       <p>{{ $teamMemberBio }}</p>
     </div>
   </div>
