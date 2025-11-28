@@ -5,7 +5,7 @@
   <div class="mt-8">
     <div class="grid grid-cols-3 gap-6">
       <x-app-services.service-card-2
-        fileName="lawn-mower-medium-2"
+        fileName="lawn-mower-2-medium-2"
         serviceName="Lawn Care"
         serviceDescription="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem natus totam pariatur adipisci voluptates expedita."
         serviceUrl="#"
@@ -17,7 +17,7 @@
         serviceUrl="#"
       />
       <x-app-services.service-card-2
-        fileName="snow-blower-medium-2"
+        fileName="snow-blower-2-medium-2"
         serviceName="Snow Removal"
         serviceDescription="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae repellat, atque fuga fugiat sed eos."
         serviceUrl="#"
