@@ -52,5 +52,6 @@
         teamMemberTitle="Full-Stack Developer"
         teamMemberBio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis perspiciatis voluptas deleniti neque eum dolorem explicabo maiores harum tempore. Dicta!"
       />
+    </div>
   </div>
 </div>

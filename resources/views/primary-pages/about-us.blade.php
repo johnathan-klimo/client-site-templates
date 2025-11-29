@@ -13,6 +13,10 @@
     <div class="mt-6 max-w-7xl mx-auto">
       <x-app-team-members.team-block-3 />
     </div>
+
+    <div class="mt-6 max-w-5xl mx-auto">
+      <x-app-team-members.team-block-4 />
+    </div>
       
   </div>
 
