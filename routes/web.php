@@ -22,6 +22,10 @@ Route::get('/about-us', function () {
   return view('primary-pages.about-us');
 })->name('about-us');
 
+Route::get('/faqs', function () {
+  return view('primary-pages.faqs');
+})->name('faqs');
+
 Route::get('/page-heros', function () {
   return view('primary-pages.page-heros');
 })->name('page-heros');
