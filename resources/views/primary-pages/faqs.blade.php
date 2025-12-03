@@ -3,7 +3,11 @@
   <div>
     
     <div class="mt-6 max-w-6xl mx-auto">
-      <x-app-faqs.faq-block-1 />
+      <x-app-faqs.faq-block-2 />
+    </div>
+
+    <div class="mt-6 max-w-6xl mx-auto">
+      <x-app-faqs.faq-block-testing />
     </div>
       
   </div>
