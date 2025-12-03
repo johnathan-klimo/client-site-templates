@@ -2,43 +2,56 @@
   <div>
     <h2 class="text-2xl text-center font-bold text-sky-800">Frequently Asked Questions [Option 2]</h2>
   </div>
-  <div class="mt-6 w-full divide-y divide-outline overflow-hidden rounded-radius border border-outline bg-surface-alt/40 text-on-surface dark:divide-outline-dark dark:border-outline-dark dark:bg-surface-dark-alt/50 dark:text-on-surface-dark">
+  <div class="mt-6 w-full divide-y divide-outline overflow-hidden rounded-radius border border-outline bg-neutral-50">
     <div x-data="{ isExpanded: false }">
-      <button id="controlsAccordionItemOne" type="button" class="flex w-full items-center justify-between gap-4 bg-surface-alt p-4 text-left underline-offset-2 hover:bg-surface-alt/75 focus-visible:bg-surface-alt/75 focus-visible:underline focus-visible:outline-hidden dark:bg-surface-dark-alt dark:hover:bg-surface-dark-alt/75 dark:focus-visible:bg-surface-dark-alt/75" aria-controls="accordionItemOne" x-on:click="isExpanded = ! isExpanded" x-bind:class="isExpanded ? 'text-on-surface-strong dark:text-on-surface-dark-strong font-bold'  : 'text-on-surface dark:text-on-surface-dark font-medium'" x-bind:aria-expanded="isExpanded ? 'true' : 'false'">
-        What browsers are supported?
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor" class="size-5 shrink-0 transition" aria-hidden="true" x-bind:class="isExpanded  ?  'rotate-180'  :  ''">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/>
+      <button id="accordionControlsItem1" type="button" x-on:click="isExpanded = ! isExpanded" class="flex w-full items-center justify-between gap-4 bg-neutral-50 p-4 text-left hover:bg-neutral-100 focus-visible:bg-neutral-100 focus-visible:outline-none" aria-controls="accordionItemOne" x-bind:aria-expanded="isExpanded ? 'true' : 'false'">
+      FAQ Question #1
+        <svg xmlns="http://www.w3.org/2000/svg" class="size-4 shrink-0 stroke-gray-900 stroke-1 transition" x-bind:class="isExpanded  ?  'rotate-180'  :  ''" viewBox="0 0 16 16" aria-hidden="true">
+          <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
         </svg>
       </button>
-      <div x-cloak x-show="isExpanded" id="accordionItemOne" role="region" aria-labelledby="controlsAccordionItemOne" x-collapse>
-        <div class="p-4 text-sm sm:text-base text-pretty">
-          Our website is optimized for the latest versions of Chrome, Firefox, Safari, and Edge. Check our <a href="#" class="underline underline-offset-2 text-primary dark:text-primary-dark">documentation</a> for additional information.
+      <div x-cloak x-show="isExpanded" id="accordionItemOne" role="region" aria-labelledby="accordionControlsItem1" x-collapse.duration.500ms>
+        <div class="p-4 text-sm sm:text-base text-pretty" x-bind:class="isExpanded  ?  'bg-white'  :  'bg-neutral-50'">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ut nulla expedita, nobis ullam unde necessitatibus voluptatem quod reprehenderit ea?</p>
         </div>
       </div>
     </div>
     <div x-data="{ isExpanded: false }">
-      <button id="controlsAccordionItemTwo" type="button" class="flex w-full items-center justify-between gap-4 bg-surface-alt p-4 text-left underline-offset-2 hover:bg-surface-alt/75 focus-visible:bg-surface-alt/75 focus-visible:underline focus-visible:outline-hidden dark:bg-surface-dark-alt dark:hover:bg-surface-dark-alt/75 dark:focus-visible:bg-surface-dark-alt/75" aria-controls="accordionItemTwo" x-on:click="isExpanded = ! isExpanded" x-bind:class="isExpanded ? 'text-on-surface-strong dark:text-on-surface-dark-strong font-bold'  : 'text-on-surface dark:text-on-surface-dark font-medium'" x-bind:aria-expanded="isExpanded ? 'true' : 'false'">
-        How can I contact customer support?
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor" class="size-5 shrink-0 transition" aria-hidden="true" x-bind:class="isExpanded  ?  'rotate-180'  :  ''">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/>
+      <button id="accordionControlsItem2" type="button" x-on:click="isExpanded = ! isExpanded" class="flex w-full items-center justify-between gap-4 bg-neutral-50 p-4 text-left hover:bg-neutral-100 focus-visible:bg-neutral-100 focus-visible:outline-none" aria-controls="accordionItemTwo" x-bind:aria-expanded="isExpanded ? 'true' : 'false'">
+        FAQ Question #2
+        <svg xmlns="http://www.w3.org/2000/svg" class="size-4 shrink-0 stroke-gray-900 stroke-1 transition" x-bind:class="isExpanded  ?  'rotate-180'  :  ''" viewBox="0 0 16 16" aria-hidden="true">
+          <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
         </svg>
       </button>
-      <div x-cloak x-show="isExpanded" id="accordionItemTwo" role="region" aria-labelledby="controlsAccordionItemTwo" x-collapse>
-        <div class="p-4 text-sm sm:text-base text-pretty">
-          Reach out to our dedicated support team via email at <a href="#" class="underline underline-offset-2 text-primary dark:text-primary-dark">support@example.com</a> or call our toll-free number at 1-800-123-4567 during business hours.
+      <div x-cloak x-show="isExpanded" id="accordionItemTwo" role="region" aria-labelledby="accordionControlsItem2" x-collapse.duration.500ms>
+        <div class="p-4 text-sm sm:text-base text-pretty" x-bind:class="isExpanded  ?  'bg-white'  :  'bg-neutral-50'">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam doloremque voluptatibus accusantium quia blanditiis sed molestias ex voluptate iusto eum.</p>
         </div>
       </div>
     </div>
     <div x-data="{ isExpanded: false }">
-      <button id="controlsAccordionItemThree" type="button" class="flex w-full items-center justify-between gap-4 bg-surface-alt p-4 text-left underline-offset-2 hover:bg-surface-alt/75 focus-visible:bg-surface-alt/75 focus-visible:underline focus-visible:outline-hidden dark:bg-surface-dark-alt dark:hover:bg-surface-dark-alt/75 dark:focus-visible:bg-surface-dark-alt/75" aria-controls="accordionItemThree" x-on:click="isExpanded = ! isExpanded" x-bind:class="isExpanded ? 'text-on-surface-strong dark:text-on-surface-dark-strong font-bold'  : 'text-on-surface dark:text-on-surface-dark font-medium'" x-bind:aria-expanded="isExpanded ? 'true' : 'false'">
-        What is the refund policy?
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor" class="size-5 shrink-0 transition" aria-hidden="true" x-bind:class="isExpanded  ?  'rotate-180'  :  ''">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/>
+      <button id="accordionControlsItem3" type="button" x-on:click="isExpanded = ! isExpanded" class="flex w-full items-center justify-between gap-4 bg-neutral-50 p-4 text-left hover:bg-neutral-100 focus-visible:bg-neutral-100 focus-visible:outline-none" aria-controls="accordionItemThree" x-bind:aria-expanded="isExpanded ? 'true' : 'false'">
+        FAQ Question #3
+        <svg xmlns="http://www.w3.org/2000/svg" class="size-4 shrink-0 stroke-gray-900 stroke-1 transition" x-bind:class="isExpanded  ?  'rotate-180'  :  ''" viewBox="0 0 16 16" aria-hidden="true">
+          <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
         </svg>
       </button>
-      <div x-cloak x-show="isExpanded" id="accordionItemThree" role="region" aria-labelledby="controlsAccordionItemThree" x-collapse.duration.500ms>
-        <div class="p-4 text-sm sm:text-base text-pretty">
-          Please refer to our <a href="#" class="underline underline-offset-2 text-primary dark:text-primary-dark">refund policy page</a> on the website for detailed information regarding eligibility, timeframes, and the process for requesting a refund.
+      <div x-cloak x-show="isExpanded" id="accordionItemThree" role="region" aria-labelledby="accordionControlsItem3" x-collapse.duration.500ms>
+        <div class="p-4 text-sm sm:text-base text-pretty" x-bind:class="isExpanded  ?  'bg-white'  :  'bg-neutral-50'">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, ab sit doloribus corrupti inventore repudiandae quas ad qui necessitatibus ratione!</p>
+        </div>
+      </div>
+    </div>
+    <div x-data="{ isExpanded: false }">
+      <button id="accordionControlsItem4" type="button" x-on:click="isExpanded = ! isExpanded" class="flex w-full items-center justify-between gap-4 bg-neutral-50 p-4 text-left hover:bg-neutral-100 focus-visible:bg-neutral-100 focus-visible:outline-none" aria-controls="accordionItemFour" x-bind:aria-expanded="isExpanded ? 'true' : 'false'">
+        FAQ Question #4
+        <svg xmlns="http://www.w3.org/2000/svg" class="size-4 shrink-0 stroke-gray-900 stroke-1 transition" x-bind:class="isExpanded  ?  'rotate-180'  :  ''" viewBox="0 0 16 16" aria-hidden="true">
+          <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+        </svg>
+      </button>
+      <div x-cloak x-show="isExpanded" id="accordionItemThree" role="region" aria-labelledby="accordionControlsItem4" x-collapse.duration.500ms>
+        <div class="p-4 text-sm sm:text-base text-pretty" x-bind:class="isExpanded  ?  'bg-white'  :  'bg-neutral-50'">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem excepturi voluptas laudantium iste asperiores eius repellat vel inventore iusto! Hic!</p>
         </div>
       </div>
     </div>
