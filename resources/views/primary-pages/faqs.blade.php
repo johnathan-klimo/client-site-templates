@@ -13,6 +13,10 @@
     <div class="mt-6 max-w-6xl mx-auto">
       <x-app-faqs.faq-block-3 />
     </div>
+
+    <div class="mt-6 max-w-7xl mx-auto">
+      <x-app-faqs.faq-block-4 />
+    </div>
       
   </div>
 
