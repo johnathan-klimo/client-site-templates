@@ -2,7 +2,7 @@
 
   <div>
 
-    <div class="mx-auto bg-stone-100">
+    <div class="mx-auto">
       <x-app-food-menus.food-menu-block-1 />
     </div>
   

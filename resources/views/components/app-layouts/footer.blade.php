@@ -10,7 +10,7 @@
         {{-- <p class="text-gray-200 py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, dolorem.</p> --}}
       </div>
       <div class="lg:basis-1/4">
-        <h4 class="font-bold text-gray-50">Menu 1</h4>
+        <h4 class="font-bold text-gray-50">Menu</h4>
         <nav class="py-4">
           <ul class="text-gray-200">
             <li><a href="#" wire:navigate class="hover:text-orange-400">Internal Site Link 1</a></li>

@@ -21,6 +21,14 @@
     <div class="mt-6 max-w-5xl mx-auto">
       <x-app-faqs.faq-block-5 />
     </div>
+
+    <div class="mt-6 max-w-7xl mx-auto">
+      <x-app-faqs.faq-block-6 />
+    </div>
+
+    <div class="mt-6 max-w-5xl mx-auto">
+      <x-app-faqs.faq-block-7 />
+    </div>
       
   </div>
 
