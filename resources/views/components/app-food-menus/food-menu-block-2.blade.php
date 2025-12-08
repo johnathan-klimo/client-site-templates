@@ -115,46 +115,30 @@
       <h3 class="text-xl font-bold text-sky-800">Desserts</h3>
     </div>
     <div class="mt-4">
-      <div class="grid grid-cols-4 gap-x-8 gap-y-10">
-        <x-app-food-menus.food-menu-card-1
+      <div class="grid grid-cols-4 gap-x-10 gap-y-10">
+        <x-app-food-menus.food-menu-card-2
+          fileName="panna-cotta-1"
           menuItemName="Item 1"
           menuItemPrice="$19"
-          menuItemDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, ipsa!"
+          menuItemDescription="Lorem ipsum dolor sit amet adipisicing elit. Eligendi, ipsa!"
         />
-        <x-app-food-menus.food-menu-card-1
+        <x-app-food-menus.food-menu-card-2
+          fileName="cannoli-1"
           menuItemName="Item 2"
           menuItemPrice="$25"
-          menuItemDescription="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, doloremque!"
+          menuItemDescription="Lorem ipsum dolor, sit amet consectetur elit. Dolore, doloremque!"
         />
-        <x-app-food-menus.food-menu-card-1
+        <x-app-food-menus.food-menu-card-2
+          fileName="tiramisu-1"
           menuItemName="Item 3"
           menuItemPrice="$15"
-          menuItemDescription="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, sapiente!"
+          menuItemDescription="Lorem ipsum dolor sit amet, facere maxime. Architecto, sapiente!"
         />
-        <x-app-food-menus.food-menu-card-1
+        <x-app-food-menus.food-menu-card-2
+          fileName="affogato-1"
           menuItemName="Item 4"
           menuItemPrice="$30"
-          menuItemDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, officia!"
-        />
-        <x-app-food-menus.food-menu-card-1
-          menuItemName="Item 5"
-          menuItemPrice="$39"
-          menuItemDescription="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, porro!"
-        />
-        <x-app-food-menus.food-menu-card-1
-          menuItemName="Item 6"
-          menuItemPrice="$45"
-          menuItemDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, consequatur."
-        />
-        <x-app-food-menus.food-menu-card-1
-          menuItemName="Item 7"
-          menuItemPrice="$29"
-          menuItemDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, qui."
-        />
-        <x-app-food-menus.food-menu-card-1
-          menuItemName="Item 8"
-          menuItemPrice="$25"
-          menuItemDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. In, aut."
+          menuItemDescription="Lorem ipsum dolor sit amet. Ipsum praesentium, officia!"
         />
       </div>
     </div>
