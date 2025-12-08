@@ -13,6 +13,6 @@
         <h4 class="font-semibold text-orange-400">{{ $menuItemPrice }}</h4>
       </div>
     </div>
-    <p class="pt-4">{{ $menuItemDescription }}</p>  
+    <p class="pt-4 text-sm text-pretty">{{ $menuItemDescription }}</p>  
   </div>
 </div>
