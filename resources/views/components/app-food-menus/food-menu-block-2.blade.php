@@ -9,7 +9,7 @@
     <div>
       <h3 class="text-xl font-bold text-sky-800">Appetizers</h3>
     </div>
-    <div class="mt-4">
+    <div class="mt-6 pb-6">
       <div class="grid grid-cols-4 gap-x-10 gap-y-10">
         <x-app-food-menus.food-menu-card-2
           fileName="bruschetta-1"
@@ -47,7 +47,7 @@
     <div>
       <h3 class="text-xl font-bold text-sky-800">Mains</h3>
     </div>
-    <div class="mt-4">
+    <div class="mt-6 pb-6">
       <div class="grid grid-cols-3 gap-x-12 gap-y-10">
         <x-app-food-menus.food-menu-card-2
           fileName="spaghetti-1"
@@ -114,7 +114,7 @@
     <div>
       <h3 class="text-xl font-bold text-sky-800">Desserts</h3>
     </div>
-    <div class="mt-4">
+    <div class="mt-6 pb-6">
       <div class="grid grid-cols-4 gap-x-10 gap-y-10">
         <x-app-food-menus.food-menu-card-2
           fileName="panna-cotta-1"
@@ -151,7 +151,7 @@
     <div>
       <h3 class="text-xl font-bold text-sky-800">Beverages</h3>
     </div>
-    <div class="mt-4">
+    <div class="mt-6">
       <div class="grid grid-cols-5 gap-x-8 gap-y-10">
         <div>
           <h3 class="font-bold">Wine and Beer</h3>
