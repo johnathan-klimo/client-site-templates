@@ -5,6 +5,10 @@
     <div class="mx-auto">
       <x-app-food-menus.food-menu-block-1 />
     </div>
+
+    <div class="mx-auto">
+      <x-app-food-menus.food-menu-block-2 />
+    </div>
   
   </div>
 
