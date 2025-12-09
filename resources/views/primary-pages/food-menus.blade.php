@@ -13,6 +13,10 @@
     <div class="mx-auto">
       <x-app-food-menus.food-menu-block-3 />
     </div>
+
+    <div class="mx-auto">
+      <x-app-food-menus.food-menu-block-4 />
+    </div>
   
   </div>
 

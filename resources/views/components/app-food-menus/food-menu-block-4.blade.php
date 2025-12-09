@@ -1,6 +1,6 @@
 <div class="max-w-7xl mx-auto">
   <div class="pt-16">
-    <h2 class="text-2xl text-center font-bold text-sky-800">Our Menu [Option 3]</h2>
+    <h2 class="text-2xl text-center font-bold text-sky-800">Our Menu [Option 4]</h2>
   </div>
   <div class="pt-8">
       <hr class="w-full h-px mx-auto border-0 bg-stone-400">
@@ -11,25 +11,25 @@
     </div>
     <div class="mt-8 pb-6">
       <div class="grid grid-cols-2 gap-x-12 gap-y-12">
-        <x-app-food-menus.food-menu-card-3
+        <x-app-food-menus.food-menu-card-4
           fileName="bruschetta-1"
           menuItemName="Item 1"
           menuItemPrice="$19"
           menuItemDescription="Lorem ipsum dolor sit amet consect adipisicing elit. Eligendi, ipsa!"
         />
-        <x-app-food-menus.food-menu-card-3
+        <x-app-food-menus.food-menu-card-4
           fileName="calamari-1"
           menuItemName="Item 2"
           menuItemPrice="$25"
           menuItemDescription="Lorem ipsum dolor, sit amet adipisicing elit. Dolore, doloremque!"
         />
-        <x-app-food-menus.food-menu-card-3
+        <x-app-food-menus.food-menu-card-4
           fileName="gazpacho-1"
           menuItemName="Item 3"
           menuItemPrice="$15"
           menuItemDescription="Lorem ipsum dolor sit consectetur adipisicing elit. Architecto, sapiente!"
         />
-        <x-app-food-menus.food-menu-card-3
+        <x-app-food-menus.food-menu-card-4
           fileName="tomato-salad-1"
           menuItemName="Item 3"
           menuItemPrice="$15"
@@ -49,49 +49,49 @@
     </div>
     <div class="mt-8 pb-6">
       <div class="grid grid-cols-2 gap-x-12 gap-y-12">
-        <x-app-food-menus.food-menu-card-3
+        <x-app-food-menus.food-menu-card-4
           fileName="spaghetti-1"
           menuItemName="Item 1"
           menuItemPrice="$19"
           menuItemDescription="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, nisi. Exercitationem fuga iusto incidunt quasi recusandae! Natus harum tenetur id."
         />
-        <x-app-food-menus.food-menu-card-3
+        <x-app-food-menus.food-menu-card-4
           fileName="linguini-1"
           menuItemName="Item 2"
           menuItemPrice="$25"
           menuItemDescription="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur blanditiis magni quia sapiente non sunt hic ut voluptate obcaecati laborum."
         />
-        <x-app-food-menus.food-menu-card-3
+        <x-app-food-menus.food-menu-card-4
           fileName="spaghetti-2"
           menuItemName="Item 3"
           menuItemPrice="$15"
           menuItemDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos culpa aliquid architecto eos doloremque quae deserunt nobis, ea asperiores rerum!"
         />
-        <x-app-food-menus.food-menu-card-3
+        <x-app-food-menus.food-menu-card-4
           fileName="lasagna-1"
           menuItemName="Item 4"
           menuItemPrice="$30"
           menuItemDescription="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, pariatur ex adipisci doloremque debitis soluta perferendis reprehenderit quas."
         />
-        <x-app-food-menus.food-menu-card-3
+        <x-app-food-menus.food-menu-card-4
           fileName="linguini-1"
           menuItemName="Item 5"
           menuItemPrice="$39"
           menuItemDescription="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et reprehenderit rem harum beatae blanditiis, maxime ducimus ex suscipit itaque nam!"
         />
-        <x-app-food-menus.food-menu-card-3
+        <x-app-food-menus.food-menu-card-4
           fileName="fettuccine-1"
           menuItemName="Item 6"
           menuItemPrice="$45"
           menuItemDescription="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem facere maxime necessitatibus laudantium nobis quidem labore perspiciatis, rerum fuga."
         />
-        <x-app-food-menus.food-menu-card-3
+        <x-app-food-menus.food-menu-card-4
           fileName="pappardelle-1"
           menuItemName="Item 7"
           menuItemPrice="$29"
           menuItemDescription="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem aut quae, repellendus unde minima natus temporibus tenetur nobis suscipit voluptate!"
         />
-        <x-app-food-menus.food-menu-card-3
+        <x-app-food-menus.food-menu-card-4
           fileName="pizza-3"
           menuItemName="Item 8"
           menuItemPrice="$49"
@@ -110,25 +110,25 @@
     </div>
     <div class="mt-8 pb-6">
       <div class="grid grid-cols-2 gap-x-12 gap-y-12">
-        <x-app-food-menus.food-menu-card-3
+        <x-app-food-menus.food-menu-card-4
           fileName="panna-cotta-1"
           menuItemName="Item 1"
           menuItemPrice="$19"
           menuItemDescription="Lorem ipsum dolor sit amet adipisicing elit. Eligendi, ipsa!"
         />
-        <x-app-food-menus.food-menu-card-3
+        <x-app-food-menus.food-menu-card-4
           fileName="cannoli-1"
           menuItemName="Item 2"
           menuItemPrice="$25"
           menuItemDescription="Lorem ipsum dolor, sit amet consectetur elit. Dolore, doloremque!"
         />
-        <x-app-food-menus.food-menu-card-3
+        <x-app-food-menus.food-menu-card-4
           fileName="tiramisu-1"
           menuItemName="Item 3"
           menuItemPrice="$15"
           menuItemDescription="Lorem ipsum dolor sit amet, facere maxime. Architecto, sapiente!"
         />
-        <x-app-food-menus.food-menu-card-3
+        <x-app-food-menus.food-menu-card-4
           fileName="affogato-1"
           menuItemName="Item 4"
           menuItemPrice="$30"
