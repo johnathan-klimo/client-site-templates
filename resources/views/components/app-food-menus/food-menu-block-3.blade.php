@@ -53,7 +53,7 @@
           fileName="spaghetti-1"
           menuItemName="Item 1"
           menuItemPrice="$19"
-          menuItemDescription="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, nisi. Exercitationem fuga iusto incidunt quasi recusandae! Natus harum tenetur id."
+          menuItemDescription="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, nisi. Exercitationem fuga iusto incidunt quasi recusandae! Natus harum tenetur id. But what happens if we have even more text here?"
         />
         <x-app-food-menus.food-menu-card-3
           fileName="linguini-1"

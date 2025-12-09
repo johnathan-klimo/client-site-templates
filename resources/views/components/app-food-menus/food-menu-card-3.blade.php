@@ -1,10 +1,10 @@
 @props(['fileName' => '', 'menuItemName' => 'Item Name', 'menuItemPrice' => '$0', 'menuItemDescription' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quo.'])
 
 <div class="grid grid-cols-3 gap-x-8">
-  <div>
-    <img class="w-56 rounded-lg shadow-lg" src="{{ asset('images/' . $fileName . '.jpg') }}" alt="">  
+  <div class="flex items-center">
+    <img class="rounded-lg drop-shadow-lg" src="{{ asset('images/' . $fileName . '.jpg') }}" alt="">
   </div>
-  <div class="p-2 col-span-2">
+  <div class="p-4 col-span-2 bg-neutral-50 rounded-lg shadow-lg">
     <div class="flex justify-between">
       <div>
         <h3 class="font-bold">{{ $menuItemName }}</h3>
