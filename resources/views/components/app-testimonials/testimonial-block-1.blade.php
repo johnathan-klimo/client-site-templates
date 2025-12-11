@@ -2,7 +2,7 @@
   <div>
     <h2 class="text-2xl text-center font-bold text-sky-800">Client Testimonials [Option 1]</h2>
   </div>
-  <div class="mt-6">
+  <div class="mt-8">
     <div class="grid grid-cols-3 gap-6">
       <x-app-testimonials.testimonial-card-1
         fileName="professional-headshot-1"
