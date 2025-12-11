@@ -17,6 +17,10 @@
     <div class="mt-6 max-w-7xl mx-auto">
       <x-app-testimonials.testimonial-block-4 />
     </div>
+
+    <div class="mt-6 max-w-7xl mx-auto">
+      <x-app-testimonials.testimonial-block-5 />
+    </div>
       
   </div>
 
