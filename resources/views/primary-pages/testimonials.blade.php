@@ -5,6 +5,10 @@
     <div class="mt-6 max-w-6xl mx-auto">
       <x-app-testimonials.testimonial-block-1 />
     </div>
+
+    <div class="mt-6 max-w-6xl mx-auto">
+      <x-app-testimonials.testimonial-block-2 />
+    </div>
       
   </div>
 

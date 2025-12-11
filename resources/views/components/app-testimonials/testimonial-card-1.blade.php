@@ -8,7 +8,7 @@
     <div>
       <img class="size-14 rounded-full shadow-md" src="{{ asset('images/' . $fileName . '.jpg') }}" alt="">
     </div>
-    <div class="p-4">
+    <div class="p-4 text-pretty">
       <p>{{ $clientName }}</p>
     </div>
   </div>
