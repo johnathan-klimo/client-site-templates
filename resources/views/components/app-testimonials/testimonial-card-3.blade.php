@@ -8,7 +8,7 @@
     <div class="font-medium">
       <p>{{ $clientName }}</p>
     </div>
-    <div class="px-4 flex gap-1">
+    <div class="flex gap-1">
       @switch($starRating)
       
         @case("0")
