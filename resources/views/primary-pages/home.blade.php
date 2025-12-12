@@ -11,15 +11,7 @@
   <div>
     
     <div class="mt-6 max-w-6xl mx-auto">
-      <x-app-services.service-block-1 />
-    </div>
-    
-    <div class="mt-6 max-w-6xl mx-auto">
-      <x-app-testimonials.testimonial-block-1 />
-    </div>
-    
-    <div class="mt-6 max-w-6xl mx-auto">
-      <x-app-team-members.team-block-1 />
+      <x-app-themes.theme-testing-service-block-1 />
     </div>
       
   </div>
